@@ -4,11 +4,20 @@
 }
 .img-container{
     position: relative;
+    animation:opacity 0.4s 0.7s;
+}
+@keyframes opacity {
+    0%{
+        opacity:0;
+    } 100%{
+        opacity: 1;
+    }
 }
 .img-container img{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    background-position:center;
 }
 .logo {
     position: absolute;
